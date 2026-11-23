@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="qemu-system-ia64-windows-gui/qemu-system-ia64-windows-gui.vcxproj" Id="f6c5052c-6159-41a1-960a-b0056a4eb806" />
+</Solution>

@@ -1,0 +1,14 @@
+Checks: >
+  -*,
+  clang-analyzer-*,
+  bugprone-dangling-handle,
+  bugprone-sizeof-expression,
+  bugprone-suspicious-semicolon,
+  bugprone-use-after-move,
+  performance-for-range-copy,
+  readability-braces-around-statements
+WarningsAsErrors: readability-braces-around-statements
+HeaderFilterRegex: '.*'
+ExcludeHeaderFilterRegex: '.*[/\\]ThirdParty[/\\].*'
+CheckOptions:
+  readability-braces-around-statements.ShortStatementLines: 0
